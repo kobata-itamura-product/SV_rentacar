@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <meta charset="utf-8">
+<head>
+<title>安否確認</title>
+</head>
+<body>
+<h1>安否確認</h1>
+
+<form role="form" action="confirmation.php" method="post">
+<div class="form-group">
+<label for="exampleInputName1">Your Name</label>
+<input type="text" class="form-control" id="exampleInputName1" placeholder="Enter name" name="name" required>
+<label for="exampleInputEmail1">Email address</label>
+<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" name="email" required>
+<label for="exampleInputText1">Message</label>
+<textarea class="form-control" rows="3" name="message" required>本文
+
+お疲れ様です。
+大阪支社、（氏名）です。
+
+安否について問題無い旨、ご報告いたします。
+</textarea>
+</div>
+<button type="submit" value="SEND MESSAGE" class="btn btn-default">送信</button>
+</form>
+</body>
+</html>
