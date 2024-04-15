@@ -1,0 +1,121 @@
+    body {
+        background-color: maroon;
+    }
+
+    .wrapper {
+        display: block;
+        margin-left: auto;
+	    margin-right: auto;
+        text-align: center;
+    }
+
+    header {
+        position: relative;
+        margin-left: auto;
+	    margin-right: auto;
+        text-align: center;
+    }
+
+
+    .fstView {
+        display: block;
+        position: relative;
+        margin-left: auto;
+	    margin-right: auto;
+        text-align: center;
+    }
+
+    .FV-hero {
+        display: block;
+        position: relative;
+        margin-left: auto;
+	    margin-right: auto;
+        text-align: center;
+    }
+
+    .fstView-keyvisual {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin-left: auto;
+	    margin-right: auto;
+        text-align: center;
+    }
+
+    .FV-FlexBox {
+        position: relative;
+        margin-left: auto;
+	    margin-right: auto;
+        text-align: center;
+    }
+
+    .rentacar {
+        position: relative;
+        margin-left: auto;
+	    margin-right: auto;
+        text-align: center;
+    }
+
+    .rentacar-box__ttl {
+        position: relative;
+        margin-left: auto;
+	    margin-right: auto;
+        text-align: center;
+    }
+
+    .rentacar-box__tbl {
+        position: relative;
+        margin-left: auto;
+	    margin-right: auto;
+        text-align: center;
+    }
+
+    .rentacar-box__img {
+        position: relative;
+        margin-left: auto;
+	    margin-right: auto;
+        text-align: center;
+    }
+
+    .rentacar-box__tap {
+        position: relative;
+        margin-left: auto;
+	    margin-right: auto;
+        text-align: center;
+    }
+
+    .content {
+        position: relative;
+        margin-left: auto;
+	    margin-right: auto;
+        text-align: center;
+    }
+
+    .sns-bnr {
+        position: relative;
+        margin-left: auto;
+	    margin-right: auto;
+        text-align: center;
+    }
+
+    .footerInner {
+        position: relative;
+        margin-left: auto;
+	    margin-right: auto;
+        text-align: center;
+    }
+
+    .btm-fixed {
+        position: relative;
+        margin-left: auto;
+	    margin-right: auto;
+        text-align: center;
+    }
+
+    @media (max-width: 1020px) and (min-width: 768px) {
+        #css { 狭いブラウザとタブレット向け } 
+    }
+     
+    @media (max-width: 767px) {
+        #css{ スマホ向け } 
+    }
