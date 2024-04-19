@@ -1,6 +1,14 @@
     body {
         background-color: white;
+        margin-left: auto;
+	    margin-right: auto;
+        text-align: center;
+
     }
+
+    li{
+        list-style:none;
+      }
 
     .wrapper {
         display: block;
@@ -34,14 +42,7 @@
     }
 
     .fstView-keyvisual {
-        width: 100vw;
-        position: relative;
-        margin-left: auto;
-	    margin-right: auto;
-        text-align: center;
-    }
-
-    .FV-FlexBox {
+        display: block;
         position: relative;
         margin-left: auto;
 	    margin-right: auto;

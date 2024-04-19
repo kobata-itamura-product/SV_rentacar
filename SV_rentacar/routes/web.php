@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PhotoController;
 
 Route::get('/', function () {
-    return view('top');
+    return view('welcome');
 });
 
 require __DIR__.'/auth.php';
