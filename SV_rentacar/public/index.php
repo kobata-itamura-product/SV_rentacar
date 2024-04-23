@@ -1,6 +1,10 @@
 <?php
-
+namespace Request;
 use Illuminate\Http\Request;
+use bootstrap\app;
+use laravel\framework\src\Illuminate\Foundation\Application;
+use Illuminate\Foundation\Configuration\Exceptions;
+use Illuminate\Foundation\Configuration\Middleware;
 
 define('LARAVEL_START', microtime(true));
 
@@ -13,5 +17,5 @@ if (file_exists($maintenance = __DIR__.'/../storage/framework/maintenance.php'))
 require __DIR__.'/../vendor/autoload.php';
 
 // Bootstrap Laravel and handle the request...
-(require_once __DIR__.'/../bootstrap/app.php')
-    ->handleRequest(Request::capture());
+$app = require_once __DIR__.'/../bootstrap/app.php';
+/*.Request -> capture();*/

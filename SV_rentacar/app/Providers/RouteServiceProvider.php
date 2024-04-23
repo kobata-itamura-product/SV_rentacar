@@ -1,5 +1,6 @@
 <?php
 
+
 public function boot()
 {
     $this->configureRateLimiting();
