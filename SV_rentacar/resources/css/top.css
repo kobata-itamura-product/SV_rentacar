@@ -56,6 +56,16 @@
         text-align: center;
     }
 
+    .rentacar-box__img {
+        position: relative;
+    }
+
+    .rentacar-box__img p {
+        position: absolute;
+        top: 50px;
+        right: 50px;
+    }
+
     .rentacar-box__ttl {
         position: relative;
         margin-left: auto;

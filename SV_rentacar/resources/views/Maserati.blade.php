@@ -63,9 +63,9 @@
                       <h2 class="rentacar-box__ttl">Maserati</h2>
                     </div>
                     <div class="rentacar-box__flex">
-                                      <div class="rentacar-box__item">
+                      <div class="rentacar-box__item">
                         <div class="rentacar-box__img">
-                          <a href="assets/images/maserati/maserati_ghibli-wl-1.jpg"><img src="/SV_rentacar/storage/images/マセラッティ車両.png" class="rentacar-box__img-first" alt=""></a>
+                          <img src="/SV_rentacar/storage/images/マセラッティ車両.png" class="rentacar-box__img-first" alt=""><p><img src="/SV_rentacar/assets/images/360カメラ.png" class="rentacar-box__img-first_icon" alt=""></P>
                           <div class="rentacar-box__imgs">
                             <a href="assets/images/maserati/maserati_ghibli-wl-2.jpg"><img src="assets/images/maserati/maserati_ghibli-wl-2.jpg" alt=""></a>
                             <a href="assets/images/maserati/maserati_ghibli-wl-3.jpg"><img src="assets/images/maserati/maserati_ghibli-wl-3.jpg" alt=""></a>
@@ -121,7 +121,7 @@
                             </tbody></table>
                           </div>
                         </div>
-                                      </div>
+                      </div>
                       
                       <div class="rentacar-box__item">
                         <div class="rentacar-box__img">

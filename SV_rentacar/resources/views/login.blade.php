@@ -32,7 +32,7 @@ if (filter_input(INPUT_SERVER, 'REQUEST_METHOD') === 'POST') {
         $pdo = connect();
 
         // ステートメント
-        $stmt = $pdo->prepare('SELECT * FROM User WHERE user_name = ?');
+        $stmt = $pdo->prepare('SELECT * FROM user WHERE user_name = ?');
 
         // パラメータ設定
         $params = [];
@@ -52,7 +52,7 @@ if (filter_input(INPUT_SERVER, 'REQUEST_METHOD') === 'POST') {
             if (password_verify($password, $password_hash)) {
                 session_regenerate_id(true);
                 $_SESSION['login_user'] = $row;
-                header('Location:main.php');
+                header('Location:top.blade.php');
                 return;
             }
         }

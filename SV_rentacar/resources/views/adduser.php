@@ -36,7 +36,7 @@ if (filter_input(INPUT_SERVER, 'REQUEST_METHOD') === 'POST') {
         $pdo = connect();
 
         // ステートメント
-        $stmt = $pdo->prepare('INSERT INTO `User` (`id`, `user_name`, `password`) VALUES (null, ?, ?)');
+        $stmt = $pdo->prepare('INSERT INTO `user` (`id`, `user_name`, `password`) VALUES (null, ?, ?)');
 
         // パラメータ設定
         $params = [];
@@ -68,7 +68,7 @@ if (filter_input(INPUT_SERVER, 'REQUEST_METHOD') === 'POST') {
 
         <?php if (isset($success) && $success) : ?>
             <p>登録に成功しました。</p>
-            <p><a href="index.php">こちらからログインしてください。</a></p>
+            <p><a href="login.blade.php">こちらからログインしてください。</a></p>
         <?php else: ?>
             <form action="" method="post">
                 <p>
@@ -84,11 +84,9 @@ if (filter_input(INPUT_SERVER, 'REQUEST_METHOD') === 'POST') {
                     <input id="password_conf" name="password_conf" type="password" />
                 </p>
                 <p>
-                    <button type="submit">ログイン</button>
+                    <button type="submit">新規ユーザー登録</button>
                 </p>
-                <p>
-                    <a href="adduser.php">新規ユーザー登録</a>
-                </p>
+                
             </form>
         <?php endif; ?>
     </body>
