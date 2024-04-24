@@ -11,13 +11,13 @@ function h($string)
 
 function connect()
 {
-    $dsn = 'mysql:host=127.0.0.1;dbname=sv_rentacar;charset=utf8mb4;';
-    $username = 'servantop';
-    $password = 'servan01';
+    $dsn = 'mysql:host=localhost;port=3306;dbname=sv_rentacar;charset=utf8mb4;';
+    $username = 'root';
+    $password = 'root';
     $options = [
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
         PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
     ];
-    $pdo = new PDO($dsn, $username, $password, $options);
+    $pdo = new PDO($dsn,$username,'');
     return $pdo;
 }
